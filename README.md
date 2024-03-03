@@ -1,39 +1,50 @@
-# DroidX-UI OTA repo
-In order for a device to be officially supported by droidx, OTA information needs to be added.
-Please refer to the following "Readme" to get started
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DroidX-UI-Devices/vendor_droidxOTA/14/banners/latest.png" />
+</p>
 
-## 1. Introduction ##
-In order for a device to be OTA compliant, there are a few things to know.
 
-### 1.1 JSON structure ###
+# Official Devices
+
+This is our repo where stuff related to our OTA config and official devices is stored.
+
+You also need to use this to apply for official maintainership for your device.
+
+### 1. How to apply?
+
+You must fulfill the following requirements before applying:
+
+- [List of official devices](docs/devices.md)
+
+- [Device stability requirements](docs/device_requirements.md)
+
+- [Maintainer requirements](docs/maintainer_requirements.md)
+
+- [Maintainers' code of conduct](docs/maintainers_code_of_conduct.md)
+
+You must be aware that just fulfilling these requirements doesn't necessarily mean that you're going to be accepted. We will also consider some other points if necessary, like experience or how your behavior is towards other people (users or otherwise), and even with some technical stuff.
+
+- If you agree with everything, please fill this [Official maintainership form](https://github.com/DroidX-UI-Devices/vendor_droidxOTA/issues/new/choose)
+
+
+### JSON structure ###
 ```
 {
   "response": [
-    {
-        "maintainer": "Name (nickname)",
-        "oem": "OEM",
-        "device": "Device Name",
-        "filename": "droidx-2.x-<date>-<device codename>-v<crversion>.zip",
-        "download": "https://sourceforge.net/projects/droidxui-releases/files/*.zip/download",
-        "timestamp": 0000000000,
-        "sha256": "abcdefg123456",
-        "size": 123456789,
-        "forum": "https://forum link", #(mandatory)
-        "gapps": "https://gapps link", #(mandatory)
-        "telegram": "https://telegram link",
+                {
+                        "maintainer": "''",
+                        "oem": "''",
+                        "device": "''",
+                        "version": "'$version'",
+                        "filename": "'$filename'",
+                        "download": "https://sourceforge.net/projects/droidx-releases/files/'$1'/'$3'/download",
+                        "timestamp": '$timestamp',
+                        "md5": "'$md5'",
+                        "sha256": "'$sha256'",
+                        "size": '$size',
+                        "version": "'$version'",
+                        "buildtype": "''",
+                        "forum": "''",
+                        "telegram": "''"
     }
   ]
 }
-```
-
-### 1.2 changelog.txt structure ### 
-```
-Highlights & Device Specific Changes:
-Device: Device name (<device codename>)
-Device maintainer: Name (nickname)
-
-===== <date> =====
-- change 1
-- change 2
-- change 3
-```
