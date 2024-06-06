@@ -1,21 +1,21 @@
 [
     {
-        "vendor": "",
-        "model": "",
-        "codename": "",
+        "vendor": "Redmi",
+        "model": "Redmi Notw 7 Pro",
+        "codename": "violet",
         "maintainer": "TEMPLATE 1",
-        "telegram": "https://t.me/",
-        "github": "https://github.com/",
+        "telegram": "https://t.me/Dr_Opto",
+        "github": "https://github.com/drpto",
         "donation": "",
         "active": true
     },
     {
-        "vendor": "",
-        "model": "",
-        "codename": "",
+        "vendor": "Redmi/Poco",
+        "model": "Redmi Note 12 5G/Poco X5 5G",
+        "codename": "stone",
         "maintainer": "TEMPLATE 1",
-        "telegram": "https://t.me/",
-        "github": "https://github.com/",
+        "telegram": "https://t.me/drpto",
+        "github": "https://github.com/Stone-Trees",
         "donation": "",
         "active": true
     }
