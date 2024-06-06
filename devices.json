@@ -1,0 +1,495 @@
+[
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 5 Pro",
+        "codename": "whyred",
+        "maintainer": "Arijit",
+        "telegram": "https://t.me/Whyred_404",
+        "github": "https://github.com/Arijit78",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi 12 5G",
+        "codename": "sky",
+        "maintainer": "Darklord",
+        "telegram": "https://t.me/hipexscape",
+        "github": "https://github.com/hipexscape",
+        "co_maintainer": "Ashwani",
+        "co_telegram": "https://t.me/ashwani_212",
+        "co_github": "https://github.com/ashwani212",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 9 Pro",
+        "codename": "miatoll",
+        "maintainer": "Zirgom Haidar",
+        "telegram": "https://t.me/Haidar1417",
+        "github": "https://github.com/ZirgomHaidar",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Google",
+        "model": "Pixel 7",
+        "codename": "panther",
+        "maintainer": "Zirgom Haidar",
+        "telegram": "https://t.me/Haidar1417",
+        "github": "https://github.com/ZirgomHaidar",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Google",
+        "model": "Pixel 7 Pro",
+        "codename": "cheetah",
+        "maintainer": "Zirgom Haidar",
+        "telegram": "https://t.me/Haidar1417",
+        "github": "https://github.com/ZirgomHaidar",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy S10 5G",
+        "codename": "beyondx",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy S10e",
+        "codename": "beyond0lte",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy S10",
+        "codename": "beyond1lte",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy S10+",
+        "codename": "beyond2lte",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy Note 10",
+        "codename": "d1",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy Note 10+",
+        "codename": "d2",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy Note 10+ 5G",
+        "codename": "d2x",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Samsung",
+        "model": "Galaxy F62",
+        "codename": "F62",
+        "maintainer": "Modedges",
+        "telegram": "https://t.me/MODEDGES",
+        "github": "https://github.com/MODEDGES24",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 7 Pro",
+        "codename": "violet",
+        "maintainer": "Dr Opto",
+        "telegram": "https://t.me/Dr_Opto",
+        "github": "https://github.com/Drpto",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 12 5G/Poco X5 5G",
+        "codename": "stone",
+        "maintainer": "Dr Opto",
+        "telegram": "https://t.me/Dr_Opto",
+        "github": "https://github.com/Drpto",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Lord Itachi",
+        "telegram": "https://t.me/manid_reddy",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 10",
+        "codename": "sweet",
+        "maintainer": "Jyr",
+        "telegram": "https://t.me/JYR_RC",
+        "github": "https://github.com/JYRRC",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 12 Pro 5G",
+        "codename": "garnet",
+        "maintainer": "Jyr",
+        "telegram": "https://t.me/JYR_RC",
+        "github": "https://github.com/JYRRC",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Finn",
+        "telegram": "https://t.me/Finnaib",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Mi 11",
+        "codename": "venus",
+        "maintainer": "Kamikaonashi",
+        "telegram": "https://t.me/kamikaonashi",
+        "github": "https://github.com/kamikaonashi",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Mi 10T/Mi 10T Pro",
+        "codename": "apollo",
+        "maintainer": "Kamikaonashi",
+        "telegram": "https://t.me/kamikaonashi",
+        "github": "https://github.com/kamikaonashi",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "FPSensor",
+        "telegram": "https://t.me/FPSensor",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Drishal",
+        "telegram": "https://t.me/Drishal",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Nalinish",
+        "telegram": "https://t.me/HyperPower17",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Priyanshu",
+        "telegram": "https://t.me/thepriyanshujangid",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Lazy Dev",
+        "telegram": "https://t.me/lazydev_ak",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi Note 11",
+        "codename": "spes",
+        "maintainer": "Sayan",
+        "telegram": "https://t.me/sayann70",
+        "github": "https://github.com/ofcsayan",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Poco X3/X3 nfc",
+        "codename": "surya",
+        "maintainer": "ReveRTX",
+        "telegram": "https://t.me/ReveRTX",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi 6 Pro",
+        "codename": "sakura",
+        "maintainer": "Shanks",
+        "telegram": "https://t.me/obito_svha",
+        "github": "https://github.com/aneeshsvha",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Xiaomi",
+        "model": "Redmi K20 Pro/Mi 9T Pro",
+        "codename": "raphael",
+        "maintainer": "Shanks",
+        "telegram": "https://t.me/obito_svha",
+        "github": "https://github.com/aneeshsvha",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Jayy",
+        "telegram": "https://t.me/Jaybharambe127",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Koushik",
+        "telegram": "https://t.me/koushikdey3",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Heisenberg",
+        "telegram": "https://t.me/hereisabug",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Mrick",
+        "telegram": "https://t.me/Mrick343",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Motorola",
+        "model": "Edge 30 Ultra",
+        "codename": "eqs",
+        "maintainer": "Little",
+        "telegram": "https://t.me/snowey7809",
+        "github": "https://github.com/snowey7809",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Sony",
+        "model": "Xperia 1 III",
+        "codename": "pdx214",
+        "maintainer": "Little",
+        "telegram": "https://t.me/snowey7809",
+        "github": "https://github.com/snowey7809",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Sony",
+        "model": "Xperia 5 III",
+        "codename": "pdx215",
+        "maintainer": "Little",
+        "telegram": "https://t.me/snowey7809",
+        "github": "https://github.com/snowey7809",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "OnePlus",
+        "model": "10T 5G",
+        "codename": "ovaltine",
+        "maintainer": "Little",
+        "telegram": "https://t.me/snowey7809",
+        "github": "https://github.com/snowey7809",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "Realme",
+        "model": "Realme 7 Pro",
+        "codename": "RMX2170",
+        "maintainer": "Balay",
+        "telegram": "https://t.me/BalayBera",
+        "github": "https://github.com/BalayBera",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Ganesh Jadhav",
+        "telegram": "https://t.me/NotGanesh",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "MrBhaskar",
+        "telegram": "https://t.me/iammrbhaskar",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "DigiGoon",
+        "telegram": "https://t.me/DigiGoon",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "SharmagRit",
+        "telegram": "https://t.me/SharmagRit",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "MalayaliDeb",
+        "telegram": "https://t.me/thatmalayali",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Sundram",
+        "telegram": "https://t.me/sundram21",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Omar",
+        "telegram": "https://t.me/AlCoptan99",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Noah",
+        "telegram": "https://t.me/noah_allen",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "AssunZain",
+        "telegram": "https://t.me/AssunZain",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    },
+    {
+        "vendor": "",
+        "model": "",
+        "codename": "",
+        "maintainer": "Carlos",
+        "telegram": "https://t.me/xdsolraC",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
+    }
+]
