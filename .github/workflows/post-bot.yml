@@ -2,9 +2,8 @@ name: Rom Poster Bot
 
 on:
   push:
-    paths-ignore:
-      - '.github/scripts/file_ids.txt'
-      - 'README.md'
+    paths:
+      - "builds/*"
   workflow_dispatch:
 
 env:
