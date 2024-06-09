@@ -1,0 +1,19 @@
+{
+    "response": [
+        {
+            "maintainer": "JYR_RC",
+            "oem": "Redmi",
+            "device": "Redmi note 13 pro 5G",
+            "version": "2.1",
+            "filename": "droidx-2.1-20240609-0724-OFFICIAL-garnet-Gapps.zip",
+            "download": "https://sourceforge.net/projects/droidx-releases/files/garnet/droidx-2.1-20240609-0724-OFFICIAL-garnet-Gapps.zip/download",
+            "timestamp": 1717917779,
+            "md5": "bb69bc66523e85f5216596ebb26ac80a",
+            "sha256": "8f42c1e70f73ff41faad820556b29a36e42c7a90cbe716d8522db8b9650cce6d",
+            "size": 2356458530,
+            "buildtype": "gapps",
+            "forum": "",
+            "telegram": "https://t.me/garnet_support_JYR_RC"
+        }
+    ]
+}
