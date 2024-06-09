@@ -1,1 +1,19 @@
-  
+{
+    "response": [
+        {
+            "maintainer": "PlaceHolder",
+            "oem": "OKOKO",
+            "device": "OKOKOK",
+            "version": "1.2",
+            "filename": "idk",
+            "download": "okokokokokokok",
+            "timestamp": 12345,
+            "md5": "12345",
+            "sha256": "123123",
+            "size": 123124,
+            "buildtype": "vanilla",
+            "forum": "",
+            "telegram": ""
+        }
+    ]
+}
