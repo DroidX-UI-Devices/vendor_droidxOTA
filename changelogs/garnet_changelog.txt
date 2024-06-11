@@ -3,6 +3,13 @@ Build type: Monthly
 Device: Redmi Note 13 Pro 5G / Poco X6 5G (garnet)
 Device maintainer: JYR_RC
 
+===== 11 June, 2024 =====
+
+- Fix overlay fod udfps
+
+- Update bcr Basic Call Recorder
+
+
 ===== 10 June, 2024 =====
 
 - Fix fp small double tap error
