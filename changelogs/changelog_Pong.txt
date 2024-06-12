@@ -1,0 +1,13 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Nothing Phone 2 (Pong)
+Device maintainer: Drishal 
+
+===== 12 June, 2024 =====
+
+- Fixed Fingerprint and autobrightness
+- Signed build
+
+===== 26 May, 2024
+
+- Initial Build
