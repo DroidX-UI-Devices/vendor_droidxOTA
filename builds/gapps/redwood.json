@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "PRIYANSHU",
+                        "oem": "Xiaomi",
+                        "device": "Poco X5 Pro 5G",
+                        "version": "2.1",
+                        "filename": "droidx-2.1-20240620-1245-OFFICIAL-redwood-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/redwood/droidx-2.1-20240620-1245-OFFICIAL-redwood-Gapps.zip/download",
+                        "timestamp": 1718887365,
+                        "md5": "7747f9dff3184a32e1ed6ead303db890",
+                        "sha256": "188911f781cb6d7c5989fc178e719b92532ae61df7a205aefe59529270a05cbf",
+                        "size": 2311764807,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/thepriyanshujangid"
+                }
+        ]
+}

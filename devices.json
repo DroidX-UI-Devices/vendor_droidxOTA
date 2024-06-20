@@ -153,6 +153,16 @@
         "active": true
     },
     {
+        "vendor": "Xiaomi",
+        "model": "Poco X5 Pro 5G",
+        "codename": "redwood",
+        "maintainer": "PRIYANSHU",
+        "telegram": "https://t.me/thepriyanshujangid",
+        "github": "https://github.com/thepriyanshujangid",
+        "donation": "",
+        "active": true
+    },
+    {
         "vendor": "OnePlus",
         "model": "8",
         "codename": "instantnoodle",

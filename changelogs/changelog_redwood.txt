@@ -1,0 +1,12 @@
+========================================
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Poco X5 Pro (redwood)
+Device maintainer: PRIYANSHU
+========================================
+
+=================
+20th June, 2024
+=================
+* initial QPR2 release.
+
