@@ -6,9 +6,6 @@ Device maintainer: JYR_RC
 ===== 11 June, 2024 =====
 
 - Initial build
-
 - Signed build
-
 - Included miuicamera
-
 - Included Oneplus Dolby
