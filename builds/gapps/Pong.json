@@ -1,19 +1,19 @@
 {
-  "response": [
+        "response": [
                 {
                         "maintainer": "Drishal",
                         "oem": "Nothing",
                         "device": "Nothing Phone 2",
-                        "version": "2.1",
-                        "filename": "droidx-2.1-20240612-0902-OFFICIAL-Pong-Gapps.zip",
-                        "download": "https://sourceforge.net/projects/droidxui-releases/files/Pong/droidx-2.1-20240612-0902-OFFICIAL-Pong-Gapps.zip/download",
-                        "timestamp": 1718182630,
-                        "md5": "c342326ba7cdb3c13ff9be54fc9ae692",
-                        "sha256": "0ddcb3b943e690f5eaa198469d9ea13f3567bc17ddb8b9d4d9fbea6757265717",
-                        "size": 2562241582,
+                        "version": "2.2",
+                        "filename": "droidx-2.2-20240820-1556-OFFICIAL-Pong-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/Pong/droidx-2.2-20240820-1556-OFFICIAL-Pong-Gapps.zip/download",
+                        "timestamp": 1724169370,
+                        "md5": "59808826607cbbe487b0aa025e93be6f",
+                        "sha256": "7fd65d1b7323e409238088f4373a0601cc43d4a009f864a959cac6115aeea417",
+                        "size": 2582216399,
                         "buildtype": "gapps",
                         "forum": "",
                         "telegram": "https://t.me/DrishalDiscussion"
-    }
-  ]
+                }
+        ]
 }

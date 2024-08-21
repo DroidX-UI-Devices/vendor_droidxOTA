@@ -5,6 +5,11 @@ Device maintainer: Drishal
 
 ===== 12 June, 2024 =====
 
+- Add Dirac 
+- Improvements to performance and system stability
+
+===== 12 June, 2024 =====
+
 - Fixed Fingerprint and autobrightness
 - Signed build
 
