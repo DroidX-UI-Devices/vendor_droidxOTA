@@ -3,7 +3,7 @@ Build type: Monthly
 Device: Nothing Phone 2 (Pong)
 Device maintainer: Drishal 
 
-===== 12 June, 2024 =====
+===== 21 August, 2024 =====
 
 - Add Dirac 
 - Improvements to performance and system stability
