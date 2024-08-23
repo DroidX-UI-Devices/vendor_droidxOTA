@@ -5,6 +5,11 @@ Device: Redmi Note 5 Pro (whyred)
 Device maintainer: Arijit Saha
 ========================================
 
+================
+23 August, 2024
+================
+- Synced with latest source
+
 =================
 14th June, 2024
 =================
