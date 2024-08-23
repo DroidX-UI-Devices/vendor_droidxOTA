@@ -6,6 +6,6 @@ Device maintainer: Arijit Saha
 ========================================
 
 =================
-14th June, 2024
+23 August, 2024
 =================
-* initial official release.
+* Synced with latest source
