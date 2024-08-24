@@ -3,14 +3,18 @@ Build type: Monthly
 Device: Redmi Note 7 Pro (violet)
 Device maintainer: Dr.Opto
 
-===== 20 June, 2024 =====
-- Drop Mi Camera
-- Fixed Offline charging animation
-- Update gps config & blobs
-- Show "Turbo charging" instead of "Charging rapidly"
-- Add props to improve battery backup
-- Update notification icons overlay for Android 14
-- Added Device Light Capabilities
+===== 24 August, 2024 =====
+- Add device as webcam
+- Imptove battery life
+- Include build signing
+- Add faceunlock back
+- Optimized cpu uses
+- Uprave Titan kernel to 1.1
+- More underhood changes
+
+===== 04 July, 2024 =====
+- Incremental update over 2.1
+- Shipped with Titan kernel v1.0
 
 ===== 21 June, 2024 =====
 - Vanilla & Gapps both build updated
@@ -21,15 +25,20 @@ Device maintainer: Dr.Opto
 - Add nodes to hide Magisk in banking apps
 - Update wifi overlay from MIUI
 
-===== 04 July, 2024 =====
-- Incremental update over 2.1
-- Shipped with Titan kernel v1.0
+===== 20 June, 2024 =====
+- Drop Mi Camera
+- Fixed Offline charging animation
+- Update gps config & blobs
+- Show "Turbo charging" instead of "Charging rapidly"
+- Add props to improve battery backup
+- Update notification icons overlay for Android 14
+- Added Device Light Capabilities
 
 Notes:
 ==============================
 - Dynamic user build
 - Use core gapps for vanilla build only
+- OTA pushed for aosp recovery users
 - Dirty flash is possible only over previous build only
 - Firmware are included by default
-- Credits to All violet devs for all trees.
-- Credit goes to Hyperpower for server
+- Credits to All violet devs for all trees
