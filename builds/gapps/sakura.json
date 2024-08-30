@@ -1,19 +1,19 @@
 {
-    "response": [
-            {
-                    "maintainer": "Shanks",
-                    "oem": "Xiaomi",
-                    "device": "Redmi 6 Pro",
-                    "version": "2.1.1",
-                    "filename": "droidx-2.1.1-20240713-1405-OFFICIAL-sakura-Gapps.zip",
-                    "download": "https://sourceforge.net/projects/droidxui-releases/files/sakura/droidx-2.1.1-20240713-1405-OFFICIAL-sakura-Gapps.zip/download",
-                    "timestamp": 1719757449,
-                    "md5": "f901d2aee37b313655e87f26d7a996c6",
-                    "sha256": "a58c3408687e0c1090d8eed15e841dc00a6c314c64e5101d332a3b73168a58ed",
-                    "size":  1491972516,
-                    "buildtype": "gapps",
-                    "forum": "",
-                    "telegram": "https://t.me/obito_svha"
-            }
-    ]
+        "response": [
+                {
+                        "maintainer": "Shanks",
+                        "oem": "Xiaomi",
+                        "device": "Redmi 6 Pro",
+                        "version": "2.2",
+                        "filename": "droidx-2.2-20240823-0902-OFFICIAL-sakura-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sakura/droidx-2.2-20240823-0902-OFFICIAL-sakura-Gapps.zip/download",
+                        "timestamp": 1724403582,
+                        "md5": "a9a722cdfd6eb4198f1f39e6a15004b2",
+                        "sha256": "69d0236729aeba20302cbee63d03942d203664201fd6595ab9279fd99c0ee177",
+                        "size": 1475638877,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/obito_svha"
+                }
+        ]
 }
