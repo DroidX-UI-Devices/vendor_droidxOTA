@@ -3,6 +3,12 @@ Build type: Monthly
 Device: Redmi Note 7 Pro (violet)
 Device maintainer: Dr.Opto
 
+===== 30 August, 2024 =====
+- Only Gapps build pushed
+- CTS & play intrigrity passed by default
+- Incrimental changes
+- DT2W not working (As of 30.08.2024)
+
 ===== 24 August, 2024 =====
 - Add device as webcam
 - Imptove battery life
