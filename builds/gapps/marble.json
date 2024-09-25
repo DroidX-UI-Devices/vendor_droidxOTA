@@ -1,0 +1,20 @@
+{
+        "response": [
+                {
+                        "maintainer": "SharmagRit",
+                        "oem": "POCO",
+                        "device": "POCO F5",
+                        "version": "2.3",
+                        "filename": "droidx-2.3-20240924-1750-OFFICIAL-marble-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/marble/droidx-2.3-20240924-1750-OFFICIAL-marble-Gapps.zip/download",
+                        "timestamp": 1727200121,
+                        "md5": "8f9dda99a11d9e27b0c7c2cfadb933ad",
+                        "sha256": "b120b70d7baad152a6dee18043bba4e274a8679ccd489d214cf026eff5dc291e",
+                        "size": 2511242378,
+                        "security_id": 240905,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/marble_builds"
+                }
+        ]
+}
