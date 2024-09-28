@@ -371,5 +371,15 @@
         "github": "https://github.com/Snowman2409",
         "donation": "",
         "active": true
+    },
+    {
+        "vendor": "realme",
+        "model": "realme 5 series",
+        "codename": "r5x",
+        "maintainer": "Amritorock",
+        "telegram": "https://t.me/Amritorock",
+        "github": "https://github.com/Amritorock",
+        "donation": "",
+        "active": true
     }
 ]
