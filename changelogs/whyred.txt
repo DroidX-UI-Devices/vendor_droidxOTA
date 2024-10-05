@@ -6,6 +6,11 @@ Device maintainer: Arijit Saha
 ========================================
 
 ================
+05 October, 2024
+================
+- Synced with latest source
+
+================
 23 August, 2024
 ================
 - Synced with latest source

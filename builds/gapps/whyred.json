@@ -1,16 +1,17 @@
 {
         "response": [
                 {
-                        "maintainer": "Arijit-Saha",
+                        "maintainer": "ARIJIT SAHA",
                         "oem": "Redmi",
                         "device": "Redmi Note 5 Pro",
-                        "version": "2.2",
-                        "filename": "droidx-2.2-20240823-0631-OFFICIAL-whyred-Gapps.zip",
-                        "download": "https://sourceforge.net/projects/droidxui-releases/files/whyred/droidx-2.2-20240823-0631-OFFICIAL-whyred-Gapps.zip/download",
-                        "timestamp": 1724394675,
-                        "md5": "f14145fbd394abd83f0d4c16917d327d",
-                        "sha256": "a5d6a3aaae33dfa2982f7353c2cffdf8a7618d934434169f6d0d7f0a671dab13",
-                        "size": 2208166245,
+                        "version": "2.3",
+                        "filename": "droidx-2.3-20241004-1842-OFFICIAL-whyred-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/whyred/droidx-2.3-20241004-1842-OFFICIAL-whyred-Gapps.zip/download",
+                        "timestamp": 1728067143,
+                        "md5": "6300e78be44b3494eb556c9f70a8030d",
+                        "sha256": "39f5285a04776d26beb56bdb99880ff698fc7acbb61d9cc4e5bd669595c6a346",
+                        "size": 1904390843,
+                        "security_id": 240905,
                         "buildtype": "gapps",
                         "forum": "",
                         "telegram": "https://t.me/project_bd_support"
