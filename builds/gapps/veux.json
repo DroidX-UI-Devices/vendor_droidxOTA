@@ -1,0 +1,19 @@
+{
+"response": [
+{
+"maintainer": "Bad_Snowman",
+"oem": "Redmi",
+"device": "Note 11 Pro/Poco X4 Pro",
+"version": "2.2",
+"filename": "droidx-2.2-20240830-1311-OFFICIAL-veux-Gapps.zip",
+"download": "https://sourceforge.net/projects/droidxui-releases/files/veux/droidx-2.2-20240830-1311-OFFICIAL-veux-Gapps.zip/download",
+"timestamp": 1725023340,
+"md5": "f972e60bfa121a861981fb149a8d1887",
+"sha256": "57184f746bccc33bfe33a40c7f6e2824389bbb195f716c7a7cc417edab8f8a16",
+"size": 2310428372,
+"buildtype": "gapps",
+"forum": "https://xdaforums.com/t/rom-android-14-redmi-note-11-pro-5g-peux-poco-x4-pro-5g-veux-droidx-ui-eris-2-2-official.4689562/",
+"telegram": "https://t.me/Snowmanbuild"
+}
+]
+}

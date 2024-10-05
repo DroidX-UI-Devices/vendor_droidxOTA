@@ -1,19 +1,19 @@
 {
-    "response": [
-            {
-                    "maintainer": "Shanks",
-                    "oem": "Xiaomi",
-                    "device": "Redmi 6 Pro",
-                    "version": "2.1.1",
-                    "filename": "droidx-2.1.1-20240713-0243-OFFICIAL-sakura-Vanilla.zip",
-                    "download": "https://sourceforge.net/projects/droidxui-releases/files/sakura/droidx-2.1.1-20240713-0243-OFFICIAL-sakura-Vanilla.zip/download",
-                    "timestamp": 1719757449,
-                    "md5": "3930f6f437e027f294924d563f21594e",
-                    "sha256": "bce9ac7fcf482e520586a45bcf8347e888439a32fe4ffb9b08f7a8c95beed6a2",
-                    "size":  1491972516,
-                    "buildtype": "vanilla",
-                    "forum": "",
-                    "telegram": "https://t.me/obito_svha"
-            }
-    ]
+        "response": [
+                {
+                        "maintainer": "Shanks",
+                        "oem": "Xiaomi",
+                        "device": "Redmi 6 Pro",
+                        "version": "2.2",
+                        "filename": "droidx-2.2-20240823-0440-OFFICIAL-sakura-Vanilla.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sakura/droidx-2.2-20240823-0440-OFFICIAL-sakura-Vanilla.zip/download",
+                        "timestamp": 1724387865,
+                        "md5": "31b4b18fc29a7d6d98ff3b69aa4792fd",
+                        "sha256": "57a81967f0a4749a183b5fd8de95c2c6d6b9521e9badfd4bad2c22766e44d1d5",
+                        "size": 984059872,
+                        "buildtype": "vanilla",
+                        "forum": "",
+                        "telegram": "https://t.me/obito_svha"
+                }
+        ]
 }

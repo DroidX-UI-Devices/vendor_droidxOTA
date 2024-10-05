@@ -1,0 +1,11 @@
+========================================
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 12 4G / NFC (topaz/tapas)
+Device maintainer: itzParsaYC
+========================================
+
+=================
+23th August, 2024
+=================
+* initial QPR3 release.

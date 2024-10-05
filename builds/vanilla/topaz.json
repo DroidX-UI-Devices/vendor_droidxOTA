@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "itzParsaYC",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 12 4G / NFC",
+                        "version": "2.2",
+                        "filename": "droidx-2.2-20240822-2056-OFFICIAL-topaz-Vanilla.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/topaz/droidx-2.2-20240822-2056-OFFICIAL-topaz-Vanilla.zip/download",
+                        "timestamp": 1724359498,
+                        "md5": "6ba37aae29f152e4b812bdbca119835d",
+                        "sha256": "496212a24333e8c81132d1b0d348866c1bda60eea94cbefe2c487ebea4deefca",
+                        "size": 1374141222,
+                        "buildtype": "vanilla",
+                        "forum": "",
+                        "telegram": "https://t.me/anythingdevelopersgp"
+                }
+        ]
+}

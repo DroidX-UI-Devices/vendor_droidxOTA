@@ -1,16 +1,16 @@
 {
         "response": [
                 {
-                        "maintainer": "Ashwani212×hipexscape",
+                        "maintainer": "Ashwani212×Abhinav",
                         "oem": "Xiaomi",
                         "device": "Redmi 12 5g/Poco M6 Pro 5g",
-                        "version": "2.2",
-                        "filename": "droidx-2.2-20240821-0422-OFFICIAL-sky-Gapps.zip",
-                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sky/droidx-2.2-20240821-0422-OFFICIAL-sky-Gapps.zip/download",
-                        "timestamp": 1724214171,
-                        "md5": "0809302d2c88b542ec492d02896b052a",
-                        "sha256": "b32848b4bdc49e8237646bf5b728484b58900fdfe8c56903cd009bebcf09d9e7",
-                        "size": 1834398107,
+                        "version": "2.3",
+                        "filename": "droidx-2.3-20240925-0639-OFFICIAL-sky-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sky/droidx-2.3-20240925-0639-OFFICIAL-sky-Gapps.zip/download",
+                        "timestamp": 1727246073,
+                        "md5": "4f152ba9f96f7175089fda54c279a609",
+                        "sha256": "e2991419234bd3c967eeb7aae2c427b20e0f25ae70f2633e354b7c7732bf3852",
+                        "size": 1756585449,
                         "buildtype": "gapps",
                         "forum": "",
                         "telegram": "https://t.me/dxui_sky"

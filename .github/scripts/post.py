@@ -21,6 +21,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 
+import re
 import telebot
 import os
 import json
@@ -28,6 +29,9 @@ import datetime
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from time import sleep
 from NoobStuffs.libtelegraph import TelegraphHelper
+from github import Github
+
+import banner
 
 # Get configs from workflow secrets
 def getConfig(config_name: str):
@@ -36,12 +40,26 @@ try:
     BOT_TOKEN = getConfig("BOT_TOKEN")
     CHAT_ID = getConfig("CHAT_ID")
     PRIV_CHAT_ID = getConfig("PRIV_CHAT_ID")
-    DROID_VERSION_CHECK = getConfig("DROID_VERSION_CHECK")
 except KeyError:
     print("Fill all the configs plox..\nExiting...")
     exit(0)
 
-BANNER_PATH = "./banners/latest.png"
+# Get the version of DroidX UI to check for updates
+def getDroidXUIVersion():
+    VENDOR_REPO = "DroidX-UI/vendor_droidx"
+    VERSION_PATH = "config/version.mk"
+    VERSION_MAJOR_REGEX = r"PRODUCT_VERSION_MAJOR = (.+)"
+    VERSION_MINOR_REGEX = r"PRODUCT_VERSION_MINOR = (.+)"
+    g = Github(getConfig("GH_TOKEN"))
+    repo = g.get_repo(VENDOR_REPO)
+    content = repo.get_contents(VERSION_PATH).decoded_content.decode()
+    major_version = re.search(VERSION_MAJOR_REGEX, content)
+    minor_version = re.search(VERSION_MINOR_REGEX, content)
+    major = major_version.group(1) if major_version else None
+    minor = minor_version.group(1) if minor_version else None
+    return f"{major}.{minor}" if major and minor else None
+
+DROID_VERSION_CHECK = getDroidXUIVersion()
 
 # Init bot
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
@@ -115,7 +133,7 @@ def get_info(ID):
         MAINTAINER = info['maintainer']
         DATE_TIME = datetime.datetime.fromtimestamp(int(info['timestamp']))
         DOWNLOAD_URL = info['download']
-        BUILD_TYPE = info['buildtype']
+        BUILD_TYPE = build_type
         SIZE = round(int(info['size'])/1000000000, 2)
         MD5 = info['md5']
         SHA256 = info['sha256']
@@ -151,34 +169,21 @@ def get_info(ID):
         }
 
 # Prepare function for posting message in channel
-def send_post(chat_id, image, caption, button):
-    return bot.send_photo(chat_id=chat_id, photo=image, caption=caption, reply_markup=button)
+def send_post(chat_id, image, caption):
+    return bot.send_photo(chat_id=chat_id, photo=image, caption=caption)
 
 # Prepare message format for channel
 def message_content(information):
     msg = ""
-    msg += f"<b>DroidX-UI NewHorizon {information['version']} // {information['oem']} {information['device_name']} ({information['codename']})</b>\n\n"
-    msg += f"<b>Maintainer:</b> <a href='https://t.me/{information['maintainer']}'>{information['maintainer']}</a>\n"
-    msg += f"<b>Build Date:</b> <code>{information['datetime']} UTC</code>\n"
-    msg += f"<b>Build Variant:</b> <code>{information['buildtype']}</code>\n"
-    msg += f"<b>MD5: </b> <code>{information['md5']}</code>\n\n"
-    msg += f"<b>Screenshots:</b> <a href='https://t.me/droidxui_screenshots'>Here</a>\n"
-    msg += f"<b>Rom Support:</b> <a href='https://t.me/DroidXUI_announcements'>Channel</a> <b>|</b> <a href='https://t.me/DroidXUI_chats'>Group</a>\n"
-    msg += f"<b>Device Support:</b> <a href='{information['telegram']}'>Here</a>\n"
-    msg += f"<b>Donate:</b> <code>droidxuiofficial@oksbi</code>\n"
+    msg += f"<b>DXUI Mars // {information['oem']} {information['device_name']} ({information['codename']})</b>\n\n" 
+    msg += f"<u>Download ({information['buildtype']})</u>: <a href='{information['''download''']}'>Here</a>\n"
+    msg += f"<u>Screenshots</u>: <a href='https://t.me/droidxui_screenshots'>Here</a>\n\n"
+    msg += f"-> Maintainer: <a href='https://t.me/{information['maintainer']}'>{information['maintainer']}</a>\n"
+    msg += f"-> DXUI Version: <code>{information['version']}</code>\n"
+    msg += f"-> Changelog: <a href='https://raw.githubusercontent.com/DroidX-UI-Devices/vendor_droidxOTA/14/changelogs/{information['''codename''']}.txt'>Here</a>\n"
 
-    msg += f"\n#NewHorizon #{information['codename']} #Android14 #Official"
+    msg += f"\n#Mars #{information['codename']} #Android14 #Official"
     return msg
-
-# Prepare buttons for message
-def button(information):
-    buttons = InlineKeyboardMarkup()
-    buttons.row_width = 2
-    button1 = InlineKeyboardButton(text="Download", url=f"{information['download']}")
-    button2 = InlineKeyboardButton(text="Installation", url=f"https://github.com/DroidX-UI-Devices/vendor_droidxOTA/blob/14/Installation/{information['codename']}.md")
-    button3 = InlineKeyboardButton(text="Rom Changelogs", url=f"https://github.com/DroidX-UI/Release_changelogs/blob/14/DroidX-Changelogs.mk")
-    button4 = InlineKeyboardButton(text="Release Notes", url=f"https://github.com/DroidX-UI-Devices/vendor_droidxOTA/blob/14/changelogs/{information['codename']}.md")
-    return buttons.add(button1, button2, button3, button4)
 
 # Send updates to channel and commit changes in repo
 def tg_message():
@@ -192,9 +197,11 @@ def tg_message():
         print(f"IDs Changed:\n{get_diff(get_new_id(), get_old_id())}\n\n")
         for devices in get_diff(get_new_id(), get_old_id()):
             info = get_info(devices)
+            BANNER_PATH = banner.generate_banner(info['oem'], info['device_name'], info['codename'])
             with open(BANNER_PATH, "rb") as image:
-                send_post(CHAT_ID, image, message_content(info), button(info))
+                send_post(CHAT_ID, image, message_content(info))
             commit_description += f"- {info['device_name']} ({info['codename']})\n"
+            os.remove(BANNER_PATH)
             sleep(5)
     update(get_new_id())
     open("commit_mesg.txt", "w+").write(f"DroidX: {commit_message} [BOT]\n\n{commit_description}")

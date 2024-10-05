@@ -3,6 +3,13 @@ Build type: Monthly
 Device: Nothing Phone 2 (Pong)
 Device maintainer: Drishal 
 
+===== 24 September, 2024 ====
+- Add device extras 
+- Switch to user build
+- Add Charging Control
+- Add dolby support
+- Improvements to performance and system stability
+
 ===== 21 August, 2024 =====
 
 - Add Dirac 

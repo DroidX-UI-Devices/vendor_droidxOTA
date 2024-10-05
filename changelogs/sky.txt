@@ -5,6 +5,16 @@ Device: Redmi 12 5g/Poco M6 Pro 5g (sky)
 Device maintainer: Ashwani212×Darklord
 ========================================
 
+====================
+25th September, 2024
+====================
+* Fixed idle drain issue.
+* Fixed freeze issue in some scenarios.
+* Added refresh rate controls.
+* updated blobs from hyperOS v1.0.6.0.
+* added dex optimise flag props to reduce boot time.
+
+
 =================
 21st August, 2024
 =================

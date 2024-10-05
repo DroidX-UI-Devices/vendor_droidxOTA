@@ -6,14 +6,41 @@ Device maintainer: Shanks
 ========================================
 
 =================
+25th August, 2024
+=================
+- Synced with latest 2.2 source
+- ro_overlays: Move CarrierConfig to RRO
+- Specify caymanslm source at the top
+- Remove media_codecs_google_c2*
+- Droped libts libs
+- Brought back bcr and viper4android
+- Move input surface to CCodec
+- Import prebuilt wpa_supplicant
+- Added performance point tag for msm8953
+- Disabled Wallpaper zoom animation once and for all
+- Remove software omx codec references
+- Use AOSP default Codec2/OMX ranks
+- Set higher priority to c2 than OMX
+- finetune performance xml
+- Finetune mediacodec performance
+- mark the target with slow cpu
+- Drop Xiaomiparts once and for all
+- QCamera2: Fix sensor to active array ROI conversion
+- HAL3 Fix for memleak if for snapshot stream
+- Fix sharpness issue in snapshot
+- Fix snprintf string truncation error
+- And some optimisation here and there
+
+=================
 30th June, 2024
 =================
-* Initial Build of DroidX 2.1
-
+- Initial Build of DroidX 2.1
+- Rom signed with sign keys
+- Moved to Fbev1 encryption
 
 =================
 13th July, 2024
 =================
-* Bump upto DroidX 2.1.1
-* Fixed DT2W from Lockscreen
-* Nuked Livedisplay which causing crash
+- Bump upto DroidX 2.1.1
+- Fixed DT2W from Lockscreen
+- Nuked Livedisplay which causing crash

@@ -1,16 +1,16 @@
 {
         "response": [
                 {
-                        "maintainer": "Ashwani212×Darklord",
+                        "maintainer": "Ashwani212×Abhinav",
                         "oem": "Xiaomi",
                         "device": "Redmi 12 5g/Poco M6 Pro 5g",
                         "version": "2.2",
-                        "filename": "droidx-2.2-20240821-0708-OFFICIAL-sky-Vanilla.zip",
-                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sky/droidx-2.2-20240821-0708-OFFICIAL-sky-Vanilla.zip/download",
-                        "timestamp": 1724224066,
-                        "md5": "b7e53b7ea9fdc21fc71edd09de3bc3e0",
-                        "sha256": "378b39dbcc2d9a694ea7835529575a5d1e696cafdf872da50b881c9b49d571da",
-                        "size": 1126028672,
+                        "filename": "droidx-2.2-20240822-1835-OFFICIAL-sky-Vanilla.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sky/droidx-2.2-20240822-1835-OFFICIAL-sky-Vanilla.zip/download",
+                        "timestamp": 1724351429,
+                        "md5": "34e39f91b9b8a1900b56e5f3acdb6b3f",
+                        "sha256": "fea1a1cdf1d86298daa00d35bf70615170d7fc16ac642c33a512c69a510ad455",
+                        "size": 1126034983,
                         "buildtype": "vanilla",
                         "forum": "",
                         "telegram": "https://t.me/dxui_sky"

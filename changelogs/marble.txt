@@ -1,0 +1,12 @@
+# Highlights & Device Specific Changes:
+# Build type: Monthly
+# Device: Poco F5 (marble)
+## Device maintainer: SharmagRit
+
+=×=×= 25th Septempber 2024 =×=×=
+* Synced with latest DroidX EOL sources
+* Initial offical build
+* bcr: Updated to v1.71
+* marble: Fixed screen freeze issue, thanks to Chaitanya
+* marble: Enable several configs: like Smart 5g, Smart pixels, Double tap to ambient, Volume steps, Refresh Rate Tile etc
+
