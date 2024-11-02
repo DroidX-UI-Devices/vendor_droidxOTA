@@ -3,6 +3,11 @@ Build type: Monthly
 Device: Redmi Note 7 Pro (violet)
 Device maintainer: Dr.Opto
 
+===== 02 November, 2024 =====
+- Incrimental changes
+- Some Optimisation
+- DT2W not working (As of 30.08.2024)
+
 ===== 28 September, 2024 =====
 - Incrimental changes
 - DT2W not working (As of 30.08.2024) 
