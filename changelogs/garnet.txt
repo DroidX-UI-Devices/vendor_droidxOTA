@@ -3,6 +3,25 @@ Build type: Monthly
 Device: Redmi Note 13 Pro 5G / Poco X6 5G (garnet)
 Device maintainer: JYR_RC
 
+===== 03 Nov, 2024 =====
+- Ota support
+- Oct security patch
+- Integrity pass default
+- Build libutils.vendor
+- Allow setsockopt syscall for qcom c2audio
+- Update from V816.0.15.0.UNRMIXM
+- Import missing media codec blobs
+- Move media codecs dolby to vendor
+- Use AOSP default Codec2/OMX ranks
+- Move dolby to hw/xiaomi
+- Update vendor blobs from V816.0.15.0 UNRMIXM
+- Fixed icon faceunlock in lockscreen
+- Switch to CUSTOM QTI thermal
+- Improved udfps unlock speed
+- Update CPU Frequency Scaling Max Values
+- Fixed miuicamera recording filters
+- Upgrade stock kernel from miui_GARNETGlobal_OS1.0.14.0.UNRMIXM
+
 ===== 22 Sep, 2024 =====
 - Ota support
 - Sep security patch
