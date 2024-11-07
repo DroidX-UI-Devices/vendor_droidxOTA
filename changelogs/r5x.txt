@@ -6,3 +6,18 @@ Device maintainer: Amritorock
 ===== 28 September, 2024 ====
 - Initial Build
 - Enforcing And Encrypted with fbev2
+
+===== 02 November, 2024 =====
+- Refactor retrofit dynamic partitions impl
+- Apply dex2oat optimizations
+- dalvik-heap configuration dynamically
+- Add missing 'vendor.' prefix to cnss-daemon
+- Set higher priority to c2 than OMX
+- Use AOSP default Codec2/OMX ranks
+- Fix permissions to hvdcp_opti SOH-D log spam
+
+Notes:
+==============================
+- Rom uses Erofs based Dynamic partition
+- OTA pushed for aosp recovery users
+- Dirty flash is possible only over previous build only
