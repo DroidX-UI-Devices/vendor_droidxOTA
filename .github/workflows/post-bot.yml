@@ -23,7 +23,9 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
-        run: sudo pip install pyTelegramBotAPI noobstuffs PyGithub pillow
+        run: |
+          sudo apt remove python3-yaml
+          sudo pip install pyTelegramBotAPI noobstuffs PyGithub pillow
 
       - name: Set Git Configs & Secrets
         run: |
