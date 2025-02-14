@@ -1,8 +1,0 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: Xiaomi Mi 10T/ 10T Pro
-Device maintainer: KamiKaonashi
-
-===== 16 June, 2024 =====
-
-- Initial build

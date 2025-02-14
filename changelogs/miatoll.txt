@@ -1,8 +1,0 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: Redmi Note 9 Pro / Poco M2 Pro (miatoll)
-Device maintainer: ZirgomHaidar
-
-===== 21 June, 2024 =====
-
-- Initial User Signed build with Mi Cam included.

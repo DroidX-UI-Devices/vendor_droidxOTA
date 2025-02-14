@@ -1,8 +1,0 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: Xiaomi Mi 11
-Device maintainer: KamiKaonashi
-
-===== 15 June, 2024 =====
-
-- Initial build
