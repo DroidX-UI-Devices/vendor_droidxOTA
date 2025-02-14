@@ -175,14 +175,14 @@ def send_post(chat_id, image, caption):
 # Prepare message format for channel
 def message_content(information):
     msg = ""
-    msg += f"<b>DXUI Europa // {information['oem']} {information['device_name']} ({information['codename']})</b>\n\n" 
+    msg += f"<b>DXUI Orion Alpha // {information['oem']} {information['device_name']} ({information['codename']})</b>\n\n" 
     msg += f"<u>Download ({information['buildtype']})</u>: <a href='{information['''download''']}'>Here</a>\n"
     msg += f"<u>Screenshots</u>: <a href='https://t.me/droidxui_screenshots'>Here</a>\n\n"
     msg += f"-> Maintainer: <a href='https://t.me/{information['maintainer']}'>{information['maintainer']}</a>\n"
     msg += f"-> DXUI Version: <code>{information['version']}</code>\n"
     msg += f"-> Changelog: <a href='https://raw.githubusercontent.com/DroidX-UI-Devices/vendor_droidxOTA/14/changelogs/{information['''codename''']}.txt'>Here</a>\n"
 
-    msg += f"\n#Mars #{information['codename']} #Android14 #Official"
+    msg += f"\n#Orion #Alpha #{information['codename']} #Android15 #Official"
     return msg
 
 # Send updates to channel and commit changes in repo
@@ -197,7 +197,8 @@ def tg_message():
         print(f"IDs Changed:\n{get_diff(get_new_id(), get_old_id())}\n\n")
         for devices in get_diff(get_new_id(), get_old_id()):
             info = get_info(devices)
-            BANNER_PATH = banner.generate_banner(info['oem'], info['device_name'], info['codename'])
+            # BANNER_PATH = banner.generate_banner(info['oem'], info['device_name'], info['codename'])
+            BANNER_PATH = "./assets/banners/template.png"
             with open(BANNER_PATH, "rb") as image:
                 send_post(CHAT_ID, image, message_content(info))
             commit_description += f"- {info['device_name']} ({info['codename']})\n"
