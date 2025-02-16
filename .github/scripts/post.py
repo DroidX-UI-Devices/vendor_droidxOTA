@@ -202,7 +202,7 @@ def tg_message():
             with open(BANNER_PATH, "rb") as image:
                 send_post(CHAT_ID, image, message_content(info))
             commit_description += f"- {info['device_name']} ({info['codename']})\n"
-            os.remove(BANNER_PATH)
+            # os.remove(BANNER_PATH)
             sleep(5)
     update(get_new_id())
     open("commit_mesg.txt", "w+").write(f"DroidX: {commit_message} [BOT]\n\n{commit_description}")
