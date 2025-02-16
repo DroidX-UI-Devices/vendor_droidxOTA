@@ -1,0 +1,7 @@
+Highlights & Device Specific Changes: Build type: Monthly Device: Redmi Note 11E Pro/Redmi Note 11 Pro 5G/POCO X4 Pro 5G
+Device maintainer: アムリタ 
+
+===== 16-02-2025 =====
+* Initial official release
+* Shipps with Oneplus Dolby, Miui Camera , Viper4FX
+

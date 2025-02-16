@@ -1,0 +1,20 @@
+{
+        "response": [
+                {
+                        "maintainer": "アムリタ",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 11E Pro/Redmi Note 11 Pro 5G/POCO X4 Pro 5G",
+                        "version": "3.0.1",
+                        "filename": "droidx-3.0.1-20250215-1726-OFFICIAL-veux-Vanilla.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/veux/droidx-3.0.1-20250215-1726-OFFICIAL-veux-Vanilla.zip/download",
+                        "timestamp": 1739640355,
+                        "md5": "7d19bf61dbad85ab2d0b4ffdd21e6c6e",
+                        "sha256": "ed99b00863655668f8fa36ae229f1975a7fdb11b9db246c22f73dd221b148120",
+                        "size": 1313802922,
+                        "security_id": 250205,
+                        "buildtype": "vanilla",
+                        "forum": "",
+                        "telegram": "https://t.me/amrito_kun"
+                }
+        ]
+}

@@ -1,0 +1,20 @@
+{
+        "response": [
+                {
+                        "maintainer": "アムリタ",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 11E Pro/Redmi Note 11 Pro 5G/POCO X4 Pro 5G",
+                        "version": "3.0.1",
+                        "filename": "droidx-3.0.1-20250215-0409-OFFICIAL-veux-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/veux/droidx-3.0.1-20250215-0409-OFFICIAL-veux-Gapps.zip/download",
+                        "timestamp": 1739592383,
+                        "md5": "0bcf571d188e71e1ed466d044a1b158b",
+                        "sha256": "c201da4027e1f156f3be1e4e5a039d673835f1c69625d4d4e69c1b9cbf807b15",
+                        "size": 2232137821,
+                        "security_id": 250205,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/amrito_kun"
+                }
+        ]
+}
