@@ -175,7 +175,7 @@ def send_post(chat_id, image, caption):
 # Prepare message format for channel
 def message_content(information):
     msg = ""
-    msg += f"<b>DXUI Orion Alpha // {information['oem']} {information['device_name']} ({information['codename']})</b>\n\n" 
+    msg += f"<b>DXUI Orion Stable // {information['oem']} {information['device_name']} ({information['codename']})</b>\n\n" 
     msg += f"<u>Download ({information['buildtype']})</u>: <a href='{information['''download''']}'>Here</a>\n"
     msg += f"<u>Screenshots</u>: <a href='https://t.me/droidxui_screenshots'>Here</a>\n\n"
     msg += f"-> Maintainer: <a href='https://t.me/{information['maintainer']}'>{information['maintainer']}</a>\n"
