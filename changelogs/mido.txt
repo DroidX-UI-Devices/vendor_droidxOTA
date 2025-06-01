@@ -1,1 +1,8 @@
+===============================================
+DroidX-UI 3.0.2 Stable Release
+===============================================
 
+- Inital Official Android 15 Build.
+- May 2025 Security Patch
+- Gapps only for now.
+- Latest Sources.
