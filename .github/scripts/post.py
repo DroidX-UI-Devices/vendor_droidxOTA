@@ -180,7 +180,7 @@ def message_content(information):
     msg += f"<u>Screenshots</u>: <a href='https://t.me/droidxui_screenshots'>Here</a>\n\n"
     msg += f"-> Maintainer: <a href='https://t.me/{information['maintainer']}'>{information['maintainer']}</a>\n"
     msg += f"-> DXUI Version: <code>{information['version']}</code>\n"
-    msg += f"-> Changelog: <a href='https://raw.githubusercontent.com/DroidX-UI-Devices/vendor_droidxOTA/14/changelogs/{information['''codename''']}.txt'>Here</a>\n"
+    msg += f"-> Changelog: <a href='https://raw.githubusercontent.com/DroidX-UI-Devices/vendor_droidxOTA/15/changelogs/{information['''codename''']}.txt'>Here</a>\n"
 
     msg += f"\n#Orion #Alpha #{information['codename']} #Android15 #Official"
     return msg
