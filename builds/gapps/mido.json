@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "Nalinish Ranjan",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 4/4X",
+                        "version": "3.0.2",
+                        "filename": "droidx-3.0.2-20250529-1716-OFFICIAL-mido-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/mido/droidx-3.0.2-20250529-1716-OFFICIAL-mido-Gapps.zip/download",
+                        "timestamp": 1748538969,
+                        "md5": "9cb13432dc8e02522daceed3be142c7d",
+                        "sha256": "8fe356281bdf8b5b1621b58137eed16c6f73ecca2a5519a48924582632f7ca03",
+                        "size": 1458986918,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/HyperPower17"
+                }
+        ]
+}
