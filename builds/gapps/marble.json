@@ -1,0 +1,20 @@
+{
+        "response": [
+                {
+                        "maintainer": "Ashwani",
+                        "oem": "Xiaomi",
+                        "device": "POCO F5",
+                        "version": "3.0.2",
+                        "filename": "droidx-3.0.2-20250604-1721-OFFICIAL-marble-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/marble/droidx-3.0.2-20250604-1721-OFFICIAL-marble-Gapps.zip/download",
+                        "timestamp": 1749057672,
+                        "md5": "d57abe8e43173cd681bbd75902512c65",
+                        "sha256": "c90f8c49e6bee1520959a793602d9d2a1b2cc4d6267b27c9041f0ce7548feacf",
+                        "size": 2815862234,
+                        "security_id": 250505,
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "telegram": "https://t.me/ashwani_builds"
+                }
+        ]
+}
