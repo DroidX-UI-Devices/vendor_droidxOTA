@@ -1,0 +1,20 @@
+{
+        "response": [
+                {
+                        "maintainer": "Amritorock",
+                        "oem": "realme",
+                        "device": "r5x",
+                        "version": "3.0.2",
+                        "filename": "droidx-3.0.2-20250605-0350-OFFICIAL-r5x-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/r5x/droidx-3.0.2-20250605-0350-OFFICIAL-r5x-Gapps.zip/download",
+                        "timestamp": 1749095411,
+                        "md5": "fb3597cdf34f6fc9fc9e9958ed0ebb23",
+                        "sha256": "57319dc2982988fa633b964dbc657a459b22846f8c782dee2c97070e19ea4cd0",
+                        "size": 2389897766,
+                        "security_id": 250505,
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "telegram": "https://t.me/DroidXUI_chats"
+                }
+        ]
+}

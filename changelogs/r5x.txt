@@ -1,0 +1,6 @@
+============================
+realme 5 series (r5x) Changelogs
+============================
+Date: 06-June-2025 (v3.0.2)
+----------------------------
+• Initial official release.
