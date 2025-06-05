@@ -373,6 +373,16 @@
         "active": true
     },
     {
+        "vendor": "Xiaomi",
+        "model": "POCO F5",
+        "codename": "marble",
+        "maintainer": "Ashwani",
+        "telegram": "https://t.me/ashwani_builds",
+        "github": "https://github.com/ashwani212",
+        "donation": "",
+        "active": true
+    },
+    {
         "vendor": "realme",
         "model": "realme 5 series",
         "codename": "r5x",
