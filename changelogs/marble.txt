@@ -1,6 +1,14 @@
 ============================
 POCO F5 (Marble) Changelogs
 ============================
+Date: 05-June-2025 (v3.0.2)
+----------------------------
+• Nuked ota recovery replacing from orangefox to droidx recovery.
+• Added props for better UI smoothness.
+• Fixed an issue with systemui not responding in soke scenario.
+
+
+
 Date: 04-June-2025 (v3.0.2)
 ----------------------------
 • Initial official release.
