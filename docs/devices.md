@@ -36,7 +36,7 @@
 - Redmi Note 7/7S (lavender) 
 - Redmi Note 8 pro (begonia)
 - Redmi Note 12 4G (topaz)
-- Redmi 12 5g (sky)
+- Redmi 12 5G (sky)
 - Mi 10T/Pro/K30S ultra (apollo)
 ```
 
@@ -46,6 +46,7 @@
 - Poco F5 (marble)
 - Poco X3 nfc (surya)
 - Poco X5 pro (redwood)
+- Poco M6 Pro 5G (sky)
 - Poco M4 Pro (fleur)
 - Poco M3 Pro (camellia)
 - Poco X5 5g/Note 12 5g (stone)

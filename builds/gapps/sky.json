@@ -1,20 +1,20 @@
 {
         "response": [
                 {
-                        "maintainer": "Ashwani212×Abhinav",
+                        "maintainer": "kAiF",
                         "oem": "Xiaomi",
-                        "device": "Redmi 12 5g/Poco M6 Pro 5g",
-                        "version": "3.0.1",
-                        "filename": "droidx-3.0.1-20250213-1755-OFFICIAL-sky-Gapps.zip",
-                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sky/droidx-3.0.1-20250213-1755-OFFICIAL-sky-Gapps.zip/download",
-                        "timestamp": 1739469300,
-                        "md5": "61bf769a02e4c77691a5c9b3f6e0d4e6",
-                        "sha256": "95725ffab4e46b833ef0dfd46a5acb4c37e77ad42fba1ee99ed33977f1e8ecb3",
-                        "size": 1961483254,
-                        "security_id": 250205,
-                        "buildtype": "gapps",
+                        "device": "Redmi 12 5G/Poco M6 Pro 5G",
+                        "version": "3.0.2",
+                        "filename": "droidx-3.0.2-20250606-1408-OFFICIAL-sky-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/sky/droidx-3.0.2-20250606-1408-OFFICIAL-sky-Gapps.zip/download",
+                        "timestamp": 1749218774,
+                        "md5": "3862389cc70cec18ee3e359e58685f5b",
+                        "sha256": "12a2292160215fead4b0c4d1da2a453c6a4a02d2a72208ce8ce9210a73a9d107",
+                        "size": 2059344143,
+                        "security_id": 250505,
+                        "buildtype": "Monthly",
                         "forum": "",
-                        "telegram": "https://t.me/ashwani_builds"
+                        "telegram": "https://t.me/roms_sky"
                 }
         ]
 }
