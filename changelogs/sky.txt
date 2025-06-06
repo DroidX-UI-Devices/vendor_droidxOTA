@@ -1,0 +1,26 @@
+============================
+REDMI 12 5G & POCO M6 Pro 5G (sky) Changelogs
+============================
+Date: 06-June-2025 (v3.0.2)
+----------------------------
+• Initial Android 15 QPR2 Release
+• Update blobs from OS2.0.8.0.VMWEUXM
+• Fixes the Problem Of No Sound During a VoIP Call When Switch Earpiece to Speaker & Vice Versa
+• Fixes the Problem of No Sound During a VoIP Call In Background Playback
+• Switch to Aidl BootCtrl
+• Extend audio offload buffer size to 256kb
+• Remove unnecessary display board flags
+• Allow PowerOffAlarm app to find alarm service
+• Remove unused GPS implementations
+• Migrate mount point creation out of Android.mk
+• Configure SQLite to operate in MEMORY mode
+• Add feature flag for IPSEC_TUNNEL_MIGRATION
+• Switch to use.voice.path.for.pcm.voip
+• Disable turbulence noise
+• Disable OMX service
+• Added swappiness to 40 (to avoid qs lag)
+• Enabled Window Level Blur
+• Sync overlay paddings from Stock
+• Added overlay cpu temp divider
+• Remove unneeded NFC packages
+• Added Dolby Atmos Support
