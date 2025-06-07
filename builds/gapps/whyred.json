@@ -1,0 +1,20 @@
+{
+        "response": [
+                {
+                        "maintainer": "whyred_404",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 5 Pro",
+                        "version": "3.0.2",
+                        "filename": "droidx-3.0.2-20250607-1652-OFFICIAL-whyred-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/whyred/droidx-3.0.2-20250607-1652-OFFICIAL-whyred-Gapps.zip/download",
+                        "timestamp": 1749314935,
+                        "md5": "254ea02b422bee136df50e35f874074f",
+                        "sha256": "9d6485e1de71fc85378f101043e463b7b3095962d453f2fc80f8327298e510b5",
+                        "size": 4342843612,
+                        "security_id": 250505,
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "telegram": "https://t.me/project_bd_support"
+                }
+        ]
+}

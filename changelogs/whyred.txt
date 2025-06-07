@@ -1,0 +1,6 @@
+============================
+Redmi Note 5 Pro (Whyred) Changelogs 
+============================
+Date: 08-June-2025 (v3.0.2)
+----------------------------
+- Initial official release.
