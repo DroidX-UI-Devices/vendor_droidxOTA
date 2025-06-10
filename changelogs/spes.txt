@@ -1,0 +1,6 @@
+============================
+Redmi Note 11 (spes) Changelogs 
+============================
+Date: 10-June-2025 (v3.0.2)
+----------------------------
+- Initial official release.
