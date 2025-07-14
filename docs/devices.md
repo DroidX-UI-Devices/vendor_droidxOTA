@@ -88,6 +88,7 @@
 ### • Nothing Devices
 ```
 - Nothing Phone 2 (pong)
+- CMF Phone 1 (tetris)
 ```
 
 ### Official Support Group & Channel
