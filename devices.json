@@ -30,6 +30,16 @@
         "active": true
     },
     {
+        "vendor": "Nothing",
+        "model": "CMF Phone (1)",
+        "codename": "tetris",
+        "maintainer": "schoosh & Ashwani",
+        "telegram": "https://t.me/schooshromsupport",
+        "github": "https://github.com/SuperAviation001",
+        "donation": "",
+        "active": true
+    },
+    {
         "vendor": "Xiaomi",
         "model": "Redmi Note 9 Pro",
         "codename": "miatoll",

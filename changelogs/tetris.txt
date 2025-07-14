@@ -1,0 +1,6 @@
+============================
+CMF Phone (1) (tetris) Changelogs
+============================
+Date: 13-July-2025 (v3.0.2)
+----------------------------
+• Initial official release.
